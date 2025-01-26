@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -155,8 +156,7 @@
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
-            },
-            "zIndex": 2
+            }
           },
           {
             "position": {
@@ -184,6 +184,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -267,7 +268,6 @@
               ]
             },
             "id": "a26fbed8-db91-4ac0-961b-07066b5568a2",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "SQL Database",
@@ -329,6 +329,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -412,7 +413,6 @@
               ]
             },
             "id": "ab405399-d470-466d-92fa-4b9478af4eac",
-            "zIndex": 5,
             "data": {
               "type": "tm.Store",
               "name": "LDAP",
@@ -495,6 +495,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -578,7 +579,6 @@
               ]
             },
             "id": "ea435d32-15bd-49d0-80e8-b8e493e85ba6",
-            "zIndex": 6,
             "data": {
               "type": "tm.Actor",
               "name": "Browser Client",
@@ -629,6 +629,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -724,8 +725,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 7
+            }
           },
           {
             "shape": "flow",
