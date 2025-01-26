@@ -1,0 +1,26 @@
+{
+  "version": "2.3.0",
+  "summary": {
+    "title": "Threat Model Example",
+    "owner": "Rafael Hugo",
+    "description": "A sample model of a web application; where users can register in the system for the time, users can then log in using the registered username and password, users will enter feedback comments and then log off system.\n",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Data Flow Diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.3.0",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
